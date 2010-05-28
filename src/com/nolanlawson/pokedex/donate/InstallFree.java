@@ -12,7 +12,7 @@ public class InstallFree extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		final boolean installed = Helper.isRomManagerFreeInstalled(this);
+		final boolean installed = Helper.isPokedroidFreeInstalled(this);
 		AlertDialog.Builder builder = new Builder(this);
 		builder.setTitle(R.string.app_name);
 		builder.setCancelable(false);
@@ -28,7 +28,7 @@ public class InstallFree extends Activity {
 			}
 		});
 		if (installed) {
-			Helper.setROMManagerPremiumIcon(this, false);
+			Helper.setPokedroidDonateIcon(this, false);
 			builder.setMessage(R.string.thanks);
 		}
 		else {

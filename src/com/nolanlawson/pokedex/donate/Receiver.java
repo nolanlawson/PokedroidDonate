@@ -7,6 +7,6 @@ import android.content.Intent;
 public class Receiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context arg0, Intent arg1) {
-		Helper.setROMManagerPremiumIcon(arg0, !Helper.isRomManagerFreeInstalled(arg0));
+		Helper.setPokedroidDonateIcon(arg0, !Helper.isPokedroidFreeInstalled(arg0));
 	}
 }
