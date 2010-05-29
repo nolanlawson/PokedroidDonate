@@ -6,7 +6,7 @@ Pokédroid Donate is simply an add-on to the free Pokédroid, \
 meaning you\'ll still need to install that version in order for it to work. \
 Thanks for donating! :)</string>
     <string name="thanks">\
-While installed, Pokédroid Donate simply serves as proof you donated, and enables the shiny sprites. \
+While installed, Pokédroid Donate simply serves as proof you donated, and adds in the shiny sprites. \
 This icon will remove itself from your application \
 tray the next time you reboot. Thanks for donating - you are awesome! :)</string>
 </resources>
